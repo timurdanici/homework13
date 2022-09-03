@@ -27,11 +27,11 @@ public class Main {
             }
         });
         map1.entrySet().forEach(entry->{
-            System.out.println(entry.getKey() + " = " + entry.getValue());
+            System.out.println(entry.getKey() + " is a Predator");
         });
         System.out.println("-----");
         map2.entrySet().forEach(entry->{
-            System.out.println(entry.getKey() + " = " + entry.getValue());
+            System.out.println(entry.getKey() + " is not a Predator");
         });
        }
 }
